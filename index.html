@@ -1,22 +1,26 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-  <title>Programming - tailwind</title>
-  <style>
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-  </style>
-</head>
-<body class="bg-slate-50 flex flex-row justify-center">
-  Enter your name:
-  <input id="input" type="text" />
-  <div id="output"></div>
-  <script src="main.js"></script>
-</body>
+<head> 
+  <meta charset="UTF-8" /> 
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> 
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <title>PROGRAMMING START</title> 
+  <style> 
+    @tailwind base; 
+    @tailwind components; 
+    @tailwind utilities; 
+  </style> 
+</head> 
+ 
+<body class="bg-orange-100">  
+  Enter text:  
+  <input id="input" type="text" class="border-4" />  
+  <button class="bg-slate-600 text-slate-900 p-2 rounded-md hover:bg-slate-200" id="enter">Enter</button>  
+  <div>Todos:</div>  
+  <div id="output"></div>  
+  <script type="module" src="main.js"></script>  
+</body> 
 </html>
